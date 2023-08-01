@@ -21,15 +21,15 @@
 
 ## Pictures:
 
-<img src="https://www.figma.com/file/oTn1jPS3r0KrnWPSVU4PUD/Gaming-Platform---Web-Design-(Community)?type=design&node-id=1-1003&mode=design&t=sAK7PnDZN7jTLZJk-4" >
+<img src="./src/img/Home.jpg" >
 
-<img src="https://www.figma.com/file/oTn1jPS3r0KrnWPSVU4PUD/Gaming-Platform---Web-Design-(Community)?type=design&node-id=1-737&mode=design&t=sAK7PnDZN7jTLZJk-4" >
+<img src="./src/img/About us.jpg" >
 
-<img src="https://www.figma.com/file/oTn1jPS3r0KrnWPSVU4PUD/Gaming-Platform---Web-Design-(Community)?type=design&node-id=1-4&mode=design&t=sAK7PnDZN7jTLZJk-4" >
+<img src="./src/img/Services.jpg" >
 
-<img src="https://www.figma.com/file/oTn1jPS3r0KrnWPSVU4PUD/Gaming-Platform---Web-Design-(Community)?type=design&node-id=1-356&mode=design&t=sAK7PnDZN7jTLZJk-4" >
+<img src="./src/img/News.jpg" >
 
-<img src="https://www.figma.com/file/oTn1jPS3r0KrnWPSVU4PUD/Gaming-Platform---Web-Design-(Community)?type=design&node-id=1-573&mode=design&t=sAK7PnDZN7jTLZJk-4" >
+<img src="./src/img/Contact us.jpg" >
 
 ## Technologies:
 
