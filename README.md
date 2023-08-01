@@ -19,6 +19,14 @@
 
 ###### > 5. Contact us
 
+## Technologies:
+
+#### > SASS
+
+#### > SWIPER
+
+#### > SCROLLREVEALJS
+
 ## Pictures:
 
 <img src="./src/img/Home.jpg" >
@@ -30,11 +38,3 @@
 <img src="./src/img/News.jpg" >
 
 <img src="./src/img/Contact us.jpg" >
-
-## Technologies:
-
-#### > SASS
-
-#### > SWIPER
-
-#### > SCROLLREVEALJS
