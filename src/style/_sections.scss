@@ -1,0 +1,87 @@
+.section {
+  &__block {
+    @include flex-w-a();
+
+    &_description {
+      position: relative;
+      width: calc(100% / 2);
+
+      &_1 {
+        width: 40%;
+      }
+
+      &_2 {
+        position: relative;
+        width: 60%;
+        padding-right: $p-7;
+      }
+    }
+
+    &--flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &--gray {
+      @include flex-w-a();
+      align-items: center;
+
+      padding: $p-1 $p-4;
+      margin-top: $m-2;
+
+      background-color: $section-block-form;
+      border-radius: 15px;
+    }
+  }
+
+  &-1 {
+    margin-top: $m-4;
+    padding-top: $p-3;
+  }
+
+  &-2 {
+    margin-top: $m-20;
+  }
+
+  &-4 {
+    padding: $p-6;
+    background: url(../../img/wallpaper__home.png) no-repeat;
+    background-size: cover;
+  }
+
+  &-5 {
+    margin-top: $m-10;
+    padding: 0;
+  }
+
+  &-6 {
+    padding: $p-10 0;
+  }
+}
+
+.bread__crumbs {
+  display: flex;
+  margin-bottom: 3rem;
+
+  .arrow {
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    font-size: $font-20;
+
+    color: $color-white;
+  }
+
+  .navbar__link--active {
+    color: $color-bread-crumbs;
+  }
+}
+
+.bg {
+  background: $secondary-color;
+}
+
+.bg2 {
+  padding-top: $p-6;
+  background-color: $color-bg-section;
+}

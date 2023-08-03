@@ -1,0 +1,27 @@
+.swiper {
+  margin-bottom: $m-6;
+  width: 100%;
+  height: auto;
+
+  cursor: pointer;
+
+  &-scrollbar {
+    bottom: 0;
+
+    &-drag {
+      background: $swiper-scrollbar;
+    }
+  }
+
+  &-button-prev::after {
+    color: $swiper-buttons;
+  }
+
+  &-button-next::after {
+    color: $swiper-buttons;
+  }
+
+  &-pagination-bullet-active {
+    background-color: $swiper-buttons;
+  }
+}

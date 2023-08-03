@@ -1,0 +1,74 @@
+.btn {
+  position: relative;
+  padding: $p-1 $p-2;
+  font-weight: $font-w-400;
+  font-size: $font-13;
+  background-color: $color-btn-1;
+  color: $color-white;
+
+  border-radius: 6px;
+
+  @include transition();
+
+  z-index: 10;
+
+  &:hover {
+    color: $color-white;
+    background-color: $color-btn-hover;
+  }
+
+  &__contact {
+    margin-left: $m--2;
+  }
+
+  &__get {
+    border-radius: 40px;
+  }
+
+  &__continue {
+    text-align: right;
+    border-radius: 8px;
+  }
+
+  &__read {
+    border-radius: 0;
+  }
+
+  &__see {
+    font-family: $font-family_2;
+    font-weight: $font-w-500;
+    font-size: $font-20;
+
+    text-transform: uppercase;
+    background-color: $color-white-opacity;
+
+    border-radius: 10px;
+  }
+
+  &-close {
+    background-color: black;
+    border-radius: 40px;
+  }
+
+  &__center {
+    display: block;
+    max-width: 13%;
+
+    margin: $m-6 auto;
+
+    text-align: center;
+  }
+
+  &__pos {
+    position: absolute;
+    padding: 0.5rem 2rem;
+    right: 5px;
+    top: 5px;
+    &BIG {
+      position: absolute;
+      padding: 0.5rem 2rem;
+      right: 10%;
+      top: 10%;
+    }
+  }
+}

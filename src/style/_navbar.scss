@@ -1,0 +1,35 @@
+.navbar {
+  @include flex();
+}
+
+.navbar__wrapper {
+  position: relative;
+
+  &:hover {
+    &::after {
+      content: "";
+      background-color: $color-pseudo-line;
+      position: absolute;
+
+      transform: rotate(90deg);
+
+      bottom: -16.5px;
+      left: 21px;
+      height: 5px;
+      width: 4px;
+
+      border-radius: 2rem;
+    }
+  }
+}
+
+.logo {
+  font-weight: $font-w-800;
+  font-size: $font-29;
+  color: $color-white;
+
+  &:hover {
+    color: $color-white;
+    text-decoration: none;
+  }
+}

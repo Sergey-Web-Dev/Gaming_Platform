@@ -1,0 +1,133 @@
+.title {
+  margin-bottom: $m-2;
+
+  color: $color-white;
+  font-weight: $font-w-700;
+  font-size: $font-50;
+
+  line-height: 77px;
+
+  &-presection {
+    margin-bottom: $m-1;
+
+    color: $text-presection;
+    font-weight: $font-w-700;
+    font-size: $font-20;
+  }
+
+  &-section {
+    margin-bottom: $m-2;
+    margin-top: $m-2;
+
+    color: $color-white;
+
+    font-family: $font-family_2;
+    font-weight: $font-w-700;
+    font-size: $font-31;
+
+    &--fz28 {
+      width: 80%;
+      font-family: $font-family_1;
+      font-weight: $font-w-600;
+      font-size: $font-28;
+      line-height: 44px;
+    }
+
+    &--team {
+      margin: 0;
+      font-family: $font-family_1;
+      font-weight: $font-w-600;
+      font-size: $font-19;
+    }
+
+    &-center {
+      color: $color-white;
+
+      font-family: $font-family_1;
+      font-weight: $font-w-600;
+      font-size: $font-36;
+      line-height: 65px;
+
+      text-align: center;
+
+      &--2 {
+        padding: 0 $p-11;
+        margin-bottom: $m-4;
+      }
+
+      &--3 {
+        margin-bottom: $m-2;
+        padding: 0 $p-15;
+
+        font-weight: $font-w-700;
+        font-size: $font-31;
+      }
+    }
+  }
+
+  &-description {
+    margin-bottom: $m-2;
+    margin-top: $m-2;
+
+    color: $color-white;
+    line-height: 32px;
+    font-weight: $font-w-500;
+    font-size: $font-16;
+    &-center {
+      padding: 0 $p-14;
+      margin-bottom: $m-5;
+
+      text-align: center;
+    }
+
+    &-alignment {
+      text-align: center;
+    }
+
+    &--thin {
+      font-weight: $font-w-400;
+    }
+
+    &--thin2 {
+      margin: 0;
+      font-weight: $font-w-300;
+    }
+
+    &--w80 {
+      width: 80%;
+    }
+
+    &--bg1 {
+      display: inline-block;
+      margin: 0;
+      padding: $p-0-5 $p-2;
+
+      border-radius: 8px;
+      background-color: $color-why-work-lorem1;
+    }
+
+    &--bg2 {
+      display: inline-block;
+      margin: 0;
+      padding: $p-0-5 $p-2;
+
+      border-radius: 8px;
+      background-color: $color-why-work-lorem2;
+    }
+
+    &--bg3 {
+      display: inline-block;
+      margin: 0;
+      padding: $p-0-5 $p-2;
+
+      border-radius: 8px;
+      background-color: $color-why-work-lorem3;
+    }
+  }
+
+  &-card {
+    font-family: $font-family_2;
+    font-weight: $font-w-500;
+    font-size: $font-22;
+  }
+}

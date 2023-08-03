@@ -1,0 +1,31 @@
+.navbar__lists {
+  @include flex();
+}
+
+.lists {
+  @include flex();
+
+  margin-top: $m-4;
+
+  &-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6rem;
+  }
+
+  &-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+  }
+
+  &-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}

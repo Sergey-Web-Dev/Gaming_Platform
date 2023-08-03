@@ -1,0 +1,20 @@
+.form {
+  position: relative;
+
+  text-align: center;
+
+  &__input {
+    padding: $p-0-5 12rem $p-0-8 $p-1;
+    border-radius: 8px;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      font-weight: $font-w-300;
+      font-size: $font-13;
+      color: $color-input-placeholder;
+    }
+  }
+}
