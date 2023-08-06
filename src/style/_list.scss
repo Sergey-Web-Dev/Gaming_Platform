@@ -14,15 +14,24 @@
   }
 
   &-why-work {
+    @include transition();
+
     width: 30%;
     padding: 3rem;
 
     border-radius: 20px;
 
     background-color: $color-why-work-card;
+
+    &:hover {
+      cursor: pointer;
+      transform: translateY(-20px);
+      box-shadow: 8px 15px 15px $color-white;
+    }
   }
 
   &-team {
+    @include transition();
     width: 23%;
     padding: 2rem;
     text-align: center;
@@ -30,5 +39,19 @@
     border-radius: 20px;
 
     background-color: $color-why-work-card;
+
+    &:hover {
+      cursor: pointer;
+      transform: translateY(-20px);
+      box-shadow: 8px 15px 15px $color-white;
+    }
+  }
+
+  &-news {
+    width: 30%;
+  }
+
+  &-news2 {
+    width: 55%;
   }
 }

@@ -8,6 +8,10 @@
 
   z-index: 10;
 
+  &::selection {
+    background: orange;
+  }
+
   &:hover {
     color: $color-white;
 
@@ -28,8 +32,4 @@
       border-radius: 2rem;
     }
   }
-
-  // &_footer {
-  //   margin-bottom: $m-2;
-  // }
 }

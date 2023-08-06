@@ -23,6 +23,37 @@
     gap: 1rem 1rem;
   }
 
+  &-portfolio {
+    margin: 0;
+    justify-content: center;
+    column-gap: 2.5rem;
+
+    &-news {
+      column-gap: 1.5rem;
+
+      &:not(:first-child) {
+        margin: $m-2 0;
+      }
+    }
+  }
+
+  &-check {
+    justify-content: flex-start;
+    column-gap: 1rem;
+    margin: 0;
+    margin-bottom: 1rem;
+
+    &--mt1 {
+      margin-top: $m-1;
+    }
+  }
+
+  &-rate {
+    @include flex();
+
+    column-gap: 1rem;
+  }
+
   &-footer {
     display: flex;
     flex-direction: column;

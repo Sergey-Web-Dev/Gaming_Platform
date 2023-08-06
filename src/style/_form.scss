@@ -17,4 +17,31 @@
       color: $color-input-placeholder;
     }
   }
+
+  &__input2 {
+    padding: $p-0-8 $p-10 $p-0-8 $p-1;
+
+    color: $color-white;
+    background-color: $section-block-form;
+
+    border: none;
+    border-radius: 10px;
+
+    z-index: 10;
+
+    &:focus::-webkit-input-placeholder {
+      color: transparent;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      padding: 0 $p-3;
+      font-weight: $font-w-400;
+      font-size: $font-16;
+      color: $color-white;
+    }
+  }
 }

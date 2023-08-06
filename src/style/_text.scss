@@ -7,12 +7,31 @@
 
   line-height: 77px;
 
+  &-slider {
+    padding: 0 $p-25;
+    font-family: $font-family_2;
+    font-weight: $font-w-500;
+    font-size: $font-35;
+    line-height: 50px;
+    text-align: center;
+
+    color: $color-white;
+  }
+
+  &::selection {
+    background: orange;
+  }
+
   &-presection {
     margin-bottom: $m-1;
 
     color: $text-presection;
     font-weight: $font-w-700;
     font-size: $font-20;
+
+    &::selection {
+      background: white;
+    }
   }
 
   &-section {
@@ -25,12 +44,35 @@
     font-weight: $font-w-700;
     font-size: $font-31;
 
+    &::selection {
+      background: orange;
+    }
+
+    &-mb05 {
+      margin: 0;
+      margin-bottom: $m-0-5;
+
+      &--fw500-fz18 {
+        margin: 0;
+        font-weight: $font-w-500;
+        font-size: $font-18;
+      }
+    }
+
     &--fz28 {
       width: 80%;
       font-family: $font-family_1;
       font-weight: $font-w-600;
       font-size: $font-28;
       line-height: 44px;
+
+      &-fw500 {
+        font-weight: $font-w-500;
+      }
+
+      &::selection {
+        background: orange;
+      }
     }
 
     &--team {
@@ -38,6 +80,10 @@
       font-family: $font-family_1;
       font-weight: $font-w-600;
       font-size: $font-19;
+
+      &::selection {
+        background: orange;
+      }
     }
 
     &-center {
@@ -49,6 +95,10 @@
       line-height: 65px;
 
       text-align: center;
+
+      &::selection {
+        background: orange;
+      }
 
       &--2 {
         padding: 0 $p-11;
@@ -63,6 +113,17 @@
         font-size: $font-31;
       }
     }
+
+    &--w90 {
+      width: 90%;
+    }
+
+    &-news {
+      font-family: $font-family_1;
+      font-weight: $font-w-600;
+      font-size: $font-23;
+      line-height: 34.5px;
+    }
   }
 
   &-description {
@@ -73,11 +134,43 @@
     line-height: 32px;
     font-weight: $font-w-500;
     font-size: $font-16;
+
+    &::selection {
+      background: orange;
+    }
+
+    &-rate {
+      font-family: $font-family_2;
+      font-size: $font-16;
+    }
+
+    &-m1 {
+      margin: $m-1 0;
+    }
+
+    &--gray {
+      margin: 0;
+      color: $color-rate-city;
+    }
+
     &-center {
       padding: 0 $p-14;
       margin-bottom: $m-5;
 
       text-align: center;
+
+      &--mt2-p0-mb0 {
+        margin: 0;
+        padding: 0 $p-23;
+        margin-top: $m-2;
+      }
+    }
+
+    &-fw400 {
+      margin: 0;
+      font-family: $font-family_2;
+      font-weight: $font-w-400;
+      font-size: $font-20;
     }
 
     &-alignment {
@@ -123,11 +216,41 @@
       border-radius: 8px;
       background-color: $color-why-work-lorem3;
     }
+
+    &_John {
+      padding: $p-0-5 $p-2;
+
+      background-color: $color-john;
+
+      &_little {
+        padding: $p-0-3 $p-1-5;
+
+        &--pink {
+          background-color: $color-john-little-pink;
+        }
+
+        &--orange {
+          background-color: $color-john-little-orange;
+        }
+
+        &--green {
+          background-color: $color-john-little-green;
+        }
+
+        &--purple {
+          background-color: $color-john-little-purple;
+        }
+      }
+    }
   }
 
   &-card {
     font-family: $font-family_2;
     font-weight: $font-w-500;
     font-size: $font-22;
+
+    &::selection {
+      background: orange;
+    }
   }
 }

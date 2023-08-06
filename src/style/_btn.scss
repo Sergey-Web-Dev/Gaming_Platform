@@ -26,11 +26,17 @@
   }
 
   &__continue {
+    background-color: $color-pseudo-line;
+
+    padding: 0;
     text-align: right;
     border-radius: 8px;
   }
 
   &__read {
+    padding: $p-1 $p-2-5;
+
+    background-color: $color-pseudo-line;
     border-radius: 0;
   }
 
