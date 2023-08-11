@@ -55,7 +55,7 @@
 
           .cry {
             left: initial;
-            right: 100px;
+            right: 300px;
             top: 180px;
           }
         }
@@ -69,6 +69,17 @@
         &--2 {
           padding: 0;
         }
+
+        &--3 {
+          padding: 0;
+        }
+      }
+    }
+
+    &-description {
+      font-size: $font-18;
+      &-center {
+        padding: 0;
       }
     }
   }

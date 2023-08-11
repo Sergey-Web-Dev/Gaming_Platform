@@ -1293,10 +1293,19 @@ body {
   }
   .section__block_description_2 .cry {
     left: initial;
-    right: 100px;
+    right: 300px;
     top: 180px;
   }
   .title-section-center--2 {
+    padding: 0;
+  }
+  .title-section-center--3 {
+    padding: 0;
+  }
+  .title-description {
+    font-size: 18px;
+  }
+  .title-description-center {
     padding: 0;
   }
   .section__block_description {
