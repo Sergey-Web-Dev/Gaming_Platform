@@ -1,0 +1,93 @@
+.btn {
+  position: relative;
+  padding: $p-1 $p-2;
+  font-weight: $font-w-400;
+  font-size: $font-13;
+  background-color: $color-btn-1;
+  color: $color-white;
+
+  border-radius: 6px;
+
+  @include transition();
+
+  z-index: 10;
+
+  &:hover {
+    color: $color-white;
+    background-color: $color-btn-hover;
+  }
+
+  &__contact {
+    margin-left: $m--2;
+  }
+
+  &__get {
+    border-radius: 40px;
+  }
+
+  &__continue {
+    background-color: $color-pseudo-line;
+
+    padding: 0;
+    text-align: right;
+    border-radius: 8px;
+  }
+
+  &__read {
+    padding: $p-1 $p-2-5;
+
+    background-color: $color-pseudo-line;
+    border-radius: 0;
+
+    z-index: 1;
+  }
+
+  &__get_in_touch {
+    padding: $p-1 $p-2-5;
+
+    background-color: $color-pseudo-line;
+    border-radius: 10px;
+
+    z-index: 1;
+  }
+
+  &__see {
+    font-family: $font-family_2;
+    font-weight: $font-w-500;
+    font-size: $font-20;
+
+    text-transform: uppercase;
+    background-color: $color-white-opacity;
+
+    border-radius: 10px;
+
+    z-index: 1;
+  }
+
+  &-close {
+    background-color: black;
+    border-radius: 40px;
+  }
+
+  &__center {
+    display: block;
+    max-width: 13%;
+
+    margin: $m-6 auto;
+
+    text-align: center;
+  }
+
+  &__pos {
+    position: absolute;
+    padding: 0.5rem 2rem;
+    right: 5px;
+    top: 5px;
+    &BIG {
+      position: absolute;
+      padding: 0.5rem 2rem;
+      right: 10%;
+      top: 10%;
+    }
+  }
+}

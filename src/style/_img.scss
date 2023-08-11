@@ -1,0 +1,270 @@
+.image {
+  position: absolute;
+  top: -200px;
+  left: 150px;
+  width: 100%;
+
+  overflow: hidden;
+
+  z-index: 1;
+}
+
+.img {
+  @include transition();
+  cursor: pointer;
+
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 18px 15px 30px black;
+    border-radius: 50%;
+  }
+}
+
+.unity {
+  position: absolute;
+  left: 0;
+  top: 200px;
+}
+
+.unreal {
+  right: 150px;
+  top: 15px;
+  position: absolute;
+}
+
+.cry {
+  position: absolute;
+  left: 220px;
+  top: 0px;
+}
+
+.dotes {
+  position: absolute;
+  top: 135px;
+  right: -350px;
+}
+
+.ico {
+  @include transition();
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-15px);
+    cursor: pointer;
+  }
+}
+
+.img_about_us {
+  @include transition();
+
+  position: absolute;
+  left: 20%;
+  top: -15%;
+
+  &:hover {
+    transform: translateX(-10%);
+    cursor: pointer;
+  }
+}
+
+.search__ico {
+  position: absolute;
+  left: 36%;
+  top: 35%;
+
+  z-index: 10;
+}
+
+.hide {
+  display: none;
+}
+
+.circle {
+  @include transition();
+  position: absolute;
+
+  &:hover {
+    transform: translateY(-18px);
+
+    cursor: pointer;
+  }
+
+  &-1 {
+    top: 25%;
+    left: 70%;
+  }
+
+  &-2 {
+    top: 50%;
+    left: 52%;
+  }
+
+  &-2 {
+    top: 50%;
+    left: 52%;
+  }
+
+  &-3 {
+    top: 22%;
+    left: 60%;
+  }
+
+  &-4 {
+    top: 30%;
+    left: 52%;
+  }
+
+  &-5 {
+    top: 45%;
+    left: 67%;
+  }
+
+  &-6 {
+    top: 70%;
+    left: 52%;
+  }
+
+  &-7 {
+    top: 76%;
+    left: 79%;
+  }
+
+  &-8 {
+    top: 26%;
+    left: 15%;
+  }
+
+  &-9 {
+    top: 70%;
+    left: 29%;
+  }
+
+  &-10 {
+    top: 50%;
+    left: 45%;
+  }
+
+  &-11 {
+    top: 20%;
+    left: 48%;
+  }
+
+  &-12 {
+    top: 16%;
+    left: 93%;
+  }
+
+  &-13 {
+    top: 82%;
+    left: 27%;
+  }
+
+  &-14 {
+    top: 57%;
+    left: 26%;
+  }
+
+  &-15 {
+    top: 43%;
+    left: 17%;
+  }
+
+  &-16 {
+    top: 37%;
+    left: 22%;
+  }
+
+  &-17 {
+    top: 25%;
+    left: 26%;
+  }
+
+  &-18 {
+    top: 17%;
+    left: 18%;
+  }
+
+  &-19 {
+    top: 17%;
+    left: 10%;
+  }
+
+  &-20 {
+    top: 5%;
+    left: 32%;
+  }
+
+  &-21 {
+    top: 3%;
+    left: 38%;
+  }
+
+  &-22 {
+    top: 15%;
+    left: 68%;
+  }
+
+  &-23 {
+    top: 40%;
+    left: 75%;
+  }
+
+  &-24 {
+    top: 18%;
+    left: 80%;
+  }
+
+  &-25 {
+    top: 65%;
+    left: 77%;
+  }
+
+  &-26 {
+    top: 82%;
+    left: 86%;
+  }
+
+  &-27 {
+    top: 68%;
+    left: 34%;
+  }
+
+  &-28 {
+    top: 18%;
+    left: 3%;
+  }
+
+  &-29 {
+    top: 0;
+    left: 25%;
+  }
+
+  &-30 {
+    top: 17%;
+    left: 33%;
+  }
+}
+
+.map {
+  width: 100%;
+}
+
+// media
+@media screen and (max-width: 450px) {
+  .circle--big {
+    width: 7%;
+  }
+
+  .circle--middle {
+    width: 5%;
+  }
+
+  .circle--little {
+    width: 3%;
+  }
+
+  .circle--micro {
+    width: 2.5%;
+  }
+}

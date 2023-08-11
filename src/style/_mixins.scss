@@ -1,0 +1,36 @@
+@mixin container() {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@mixin container2() {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+@mixin flex() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin flex-w-a() {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin transition() {
+  transition: all 0.5s;
+}
+
+@mixin alignment() {
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+@mixin transform($arg1, $arg2) {
+  transform: translate($arg1, $arg2);
+}

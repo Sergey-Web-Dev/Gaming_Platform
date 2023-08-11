@@ -1,0 +1,33 @@
+.navbar__link {
+  display: inline-block;
+  position: relative;
+
+  font-size: $font-16;
+  font-weight: $font-w-400;
+  color: $color-white;
+
+  &::selection {
+    background: orange;
+  }
+
+  &:hover {
+    color: $color-white;
+
+    text-decoration: none;
+
+    &::after {
+      content: "";
+      background-color: $color-pseudo-line;
+      position: absolute;
+
+      transform: rotate(90deg);
+
+      bottom: -185%;
+      left: 0;
+      height: 31px;
+      width: 4px;
+
+      border-radius: 2rem;
+    }
+  }
+}

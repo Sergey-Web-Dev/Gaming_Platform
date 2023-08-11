@@ -1,0 +1,18 @@
+.modal {
+  &-content {
+    background: $color-modal;
+  }
+
+  &-header {
+    margin: 0 auto;
+    border: none;
+  }
+
+  &-footer {
+    border: none;
+  }
+}
+
+.arrow-right {
+  margin-left: 1rem;
+}

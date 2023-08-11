@@ -1,0 +1,25 @@
+.footer {
+  padding: 4rem;
+
+  background-color: $color-footer;
+
+  z-index: 1;
+
+  &__section__block {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+    &_description {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      row-gap: 1rem;
+
+      width: 20%;
+      margin: 0 2rem;
+    }
+  }
+}

@@ -4,30 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Favicon -->
     <link
       rel="shortcut icon"
-      href="./img/ico/icons8-nintendo-switch-logo-96.png"
+      href="../img/ico/icons8-nintendo-switch-logo-96.png"
       type="image/x-icon"
     />
     <link
       rel="apple-touch-icon"
-      href="./img/ico/icons8-nintendo-switch-logo-96.png"
+      href="../img/ico/icons8-nintendo-switch-logo-96.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="16x16"
-      href="./img/ico/icons8-nintendo-switch-logo-color-16.png"
+      href="../img/ico/icons8-nintendo-switch-logo-color-16.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="32x32"
-      href="./img/ico/icons8-nintendo-switch-logo-color-32.png"
+      href="../img/ico/icons8-nintendo-switch-logo-color-32.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="120x120"
-      href="./img/ico/icons8-nintendo-switch-logo-color-120.png"
+      href="../img/ico/icons8-nintendo-switch-logo-color-120.png"
     />
 
     <!-- SEO -->
@@ -37,14 +45,6 @@
       content="Games Portal specialising in Board Games, Magic the Gathering, Miniature Games and Dungeons and Dragons (D&D). Located in Ringwood, Victoria."
     />
     <meta name="author" content="Sergey" />
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Rubik:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
 
     <!-- Bootstrap CSS -->
     <link
@@ -64,45 +64,41 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- CSS Link -->
-    <link rel="stylesheet" href="./style/css/main.min.css" />
+    <link rel="stylesheet" href="../style/css/main.min.css" />
 
-    <title>Home</title>
+    <title>About us</title>
   </head>
   <body>
     <header class="header">
       <nav class="navbar left-side-third">
-        <a href="./index.html" class="logo">
-          <span class="L">L</span><span class="O">O</span
-          ><span class="G">G</span><span class="OO">O</span>
-        </a>
+        <a href="../index.html" class="logo"
+          ><span class="L">L</span><span class="O">O</span
+          ><span class="G">G</span><span class="OO">O</span></a
+        >
 
         <ul class="navbar__lists mobile">
           <li class="navbar__list">
             <div class="navbar__wrapper">
-              <a href="./index.html" class="navbar__link">Home</a>
+              <a href="../index.html" class="navbar__link">Home</a>
             </div>
           </li>
           <li class="navbar__list">
             <div class="navbar__wrapper">
-              <a href="./pages/about us.html" class="navbar__link">About us</a>
+              <a href="./about us.html" class="navbar__link">About us</a>
             </div>
           </li>
           <li class="navbar__list">
             <div class="navbar__wrapper">
-              <a href="./pages/portfolio.html" class="navbar__link"
-                >Portfolio</a
-              >
+              <a href="./portfolio.html" class="navbar__link">Portfolio</a>
             </div>
           </li>
           <li class="navbar__list">
             <div class="navbar__wrapper">
-              <a href="./pages/news.html" class="navbar__link">News</a>
+              <a href="./news.html" class="navbar__link">News</a>
             </div>
           </li>
           <li class="navbar__list" id="change">
-            <a href="./pages/contact us.html" class="btn btn__contact"
-              >Contact us</a
-            >
+            <a href="./contact us.html" class="btn btn__contact">Contact us</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -114,16 +110,32 @@
     </header>
 
     <main class="main">
-      <section class="section container section-1">
+      <section class="section container2 section-1">
         <div class="section__block">
           <div
             class="section__block_description section__block_description_1 left-side-first"
           >
-            <h3 class="title-presection">3D game Dev</h3>
-            <h1 class="title">Work that we produce for our clients</h1>
+            <div class="bread__crumbs">
+              <div class="navbar__wrapper-2">
+                <a href="../index.html" class="navbar__link">Home </a>
+              </div>
+              <span class="arrow">></span>
+              <div class="navbar__wrapper-2">
+                <a
+                  href="./about us.html"
+                  class="navbar__link navbar__link--active"
+                >
+                  About us</a
+                >
+              </div>
+            </div>
+            <h1 class="title">
+              Lorem Ipsum is simply dummy text of the printing and.
+            </h1>
             <p class="title-description">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard.
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
             </p>
             <!-- Button trigger modal -->
             <button
@@ -132,187 +144,167 @@
               data-toggle="modal"
               data-target="#exampleModalCenter"
             >
-              Get more details
+              Get in touch <span class="arrow-right">&#10140;</span>
             </button>
           </div>
 
           <div
             class="section__block_description section__block_description_2 left-side-second"
           >
-            <img src="./img/joy_stick 1.png" alt="gamepad" class="image" />
-            <img src="./img/unity 1.png" alt="unity" class="unity" />
-            <img src="./img/cry 1.png" alt="cry" class="cry" />
-            <img src="./img/unreal 1.png" alt="unreal" class="unreal" />
+            <img
+              src="../img/about us section1.png"
+              alt="img_about_us"
+              class="img_about_us"
+            />
           </div>
         </div>
       </section>
 
-      <section class="section container section-2">
+      <section class="section container2 section-5">
         <div class="section__block section__block--flex">
-          <h2 class="title-section">Currently Trending Games</h2>
-          <a href="#" class="btn btn__see">See All</a>
+          <h2 class="title-section">Why work with us</h2>
         </div>
 
-        <ul class="lists">
-          <li class="list">
-            <img src="./img/Rectangle 23.png" alt="image1" class="img" />
-            <h2 class="title-section-center title-card">
-              <img src="./img/fire 1.png" alt="fire" /> 40 Followers
-            </h2>
+        <ul class="lists lists-why-work">
+          <li class="list-why-work">
+            <p
+              class="title-description title-description--thin title-description--bg1"
+            >
+              Lorem ipsum
+            </p>
+            <h2 class="title-section">Lorem ipsum</h2>
+            <p class="title-description title-description--thin">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,
+            </p>
           </li>
-          <li class="list">
-            <img src="./img/Rectangle 24.png" alt="image2" class="img" />
-            <h2 class="title-section-center title-card">
-              <img src="./img/fire 1.png" alt="fire" /> 40 Followers
-            </h2>
+          <li class="list-why-work">
+            <p
+              class="title-description title-description--thin title-description--bg2"
+            >
+              Lorem ipsum
+            </p>
+            <h2 class="title-section">Lorem ipsum</h2>
+            <p class="title-description title-description--thin">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,
+            </p>
           </li>
-          <li class="list">
-            <img src="./img/Rectangle 25.png" alt="image3" class="img" />
-            <h2 class="title-section-center title-card">
-              <img src="./img/fire 1.png" alt="fire" /> 40 Followers
-            </h2>
-          </li>
-          <li class="list">
-            <img src="./img/Rectangle 26.png" alt="image4" class="img" />
-            <h2 class="title-section-center title-card">
-              <img src="./img/fire 1.png" alt="fire" /> 40 Followers
-            </h2>
+          <li class="list-why-work">
+            <p
+              class="title-description title-description--thin title-description--bg3"
+            >
+              Lorem ipsum
+            </p>
+            <h2 class="title-section">Lorem ipsum</h2>
+            <p class="title-description title-description--thin">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,
+            </p>
           </li>
         </ul>
       </section>
 
-      <section class="section container section-1">
-        <h2 class="title-section-center title-section-center--2">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </h2>
-
-        <div class="section__block_description">
-          <h2 class="title-section">Lorem Ipsum</h2>
-          <p class="title-description title-description--thin">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,
-          </p>
-          <img src="./img/dotes.png" alt="dotes" class="dotes" />
-        </div>
-
-        <!-- swsiper -->
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./img/game4.jpg" alt="" class="swiper-img" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./img/cats.jpg" alt="" class="swiper-img2" />
-            </div>
-            <div class="swiper-slide">
+      <section class="section section-5 bg2">
+        <div class="container2">
+          <div class="section__block">
+            <div class="section__block_description">
               <img
-                src="./img/enrique-torres-xcom-pax-panel1-f42.jpg"
-                alt=""
-                class="swiper-img3"
+                src="../img/girl antimag.png"
+                alt="antimag"
+                class="img-profile"
               />
             </div>
-            <div class="swiper-slide">
-              <img src="./img/Odyssey.jpg" alt="" class="swiper-img4" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./img/game5.jpg" alt="" class="swiper-img5" />
+            <div class="section__block_description">
+              <p class="title-description">Lorem ipsum</p>
+              <h2 class="title-section title-section--fz28">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </h2>
+              <p
+                class="title-description title-description--thin title-description--w80"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries,
+              </p>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
-
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-          <!-- hold this slide for 2 seconds -->
-
-          <div class="swiper-scrollbar"></div>
         </div>
       </section>
 
-      <section class="section section-4">
-        <h2 class="title-section-center title-section-center--3">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </h2>
-        <p
-          class="title-description title-description-center title-description--thin"
-        >
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
-        </p>
-        <ul class="lists-cards">
-          <li class="list-cards">
-            <img src="./img/mobile.png" alt="ico" class="ico" />
-            <p class="title-description">Mobile Game Development</p>
-            <img src="./img/arrow 1.png" alt="direction" />
+      <section class="section container2 section-5">
+        <div class="section__block section__block--flex">
+          <h2 class="title-section">Our Team</h2>
+        </div>
+
+        <ul class="lists lists-team">
+          <li class="list-team">
+            <img
+              src="../img/Bill 1.png"
+              alt="team"
+              width="123px"
+              height="123px"
+            />
+            <h2 class="title-section title-section--team">John peter</h2>
+            <p
+              class="title-description title-description--thin title-description--thin2"
+            >
+              Front-end
+            </p>
           </li>
-          <li class="list-cards">
-            <img src="./img/pc.png" alt="ico" class="ico" />
-            <p class="title-description">PC Game Development</p>
-            <img src="./img/arrow 1.png" alt="direction" />
+          <li class="list-team">
+            <img
+              src="../img/Beverly 1.png"
+              alt="team"
+              width="123px"
+              height="123px"
+            />
+            <h2 class="title-section title-section--team">Beverly Raiden</h2>
+            <p
+              class="title-description title-description--thin title-description--thin2"
+            >
+              Back-end
+            </p>
           </li>
-          <li class="list-cards">
-            <img src="./img/ps4.png" alt="ico" class="ico" />
-            <p class="title-description">PS4 Game Development</p>
-            <img src="./img/arrow 1.png" alt="direction" />
+          <li class="list-team">
+            <img
+              src="../img/Claudia 1.png"
+              alt="team"
+              width="123px"
+              height="123px"
+            />
+            <h2 class="title-section title-section--team">Markiza Cantel</h2>
+            <p
+              class="title-description title-description--thin title-description--thin2"
+            >
+              QA
+            </p>
           </li>
-          <li class="list-cards">
-            <img src="./img/helmet.png" alt="ico" class="ico" />
-            <p class="title-description">AR/VR Solutions</p>
-            <img src="./img/arrow 1.png" alt="direction" />
-          </li>
-          <li class="list-cards">
-            <img src="./img/cub.png" alt="ico" class="ico" />
-            <p class="title-description">AR/ VR design</p>
-            <img src="./img/arrow 1.png" alt="direction" />
-          </li>
-          <li class="list-cards">
-            <img src="./img/3d.png" alt="ico" class="ico" />
-            <p class="title-description">3D Modelings</p>
-            <img src="./img/arrow 1.png" alt="direction" />
+          <li class="list-team">
+            <img
+              src="../img/Avatar 1.png"
+              alt="team"
+              width="123px"
+              height="123px"
+            />
+            <h2 class="title-section title-section--team">Duke Nukem</h2>
+            <p
+              class="title-description title-description--thin title-description--thin2"
+            >
+              CEO
+            </p>
           </li>
         </ul>
       </section>
 
-      <section class="section section-6 bg">
-        <div class="container">
-          <h2 class="title-section-center title-section-center--3">
-            Our Recent Projects
-          </h2>
-          <p
-            class="title-description title-description-center title-description--thin"
-          >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p>
-          <ul class="lists-image">
-            <li class="list-img">
-              <img src="./img/card-item1.png" alt="item" class="card__img" />
-            </li>
-            <li class="list-img">
-              <img src="./img/card-item2.png" alt="item" class="card__img" />
-            </li>
-            <li class="list-img">
-              <img src="./img/card-item3.png" alt="item" class="card__img" />
-            </li>
-            <li class="list-img">
-              <img
-                src="./img/card-item4.png"
-                alt="item"
-                class="card__img card__img-4"
-              />
-            </li>
-            <li class="list-img">
-              <img src="./img/card-item5.png" alt="item" class="card__img" />
-            </li>
-            <li class="list-img">
-              <img src="./img/card-item6.png" alt="item" class="card__img" />
-            </li>
-          </ul>
-          <a href="#" class="btn btn__center btn__see">See All</a>
-
+      <section class="section container2 section-6">
+        <div class="section__block">
           <div class="section__block_description">
             <h2 class="title-section">Lorem Ipsum</h2>
             <p class="title-description title-description--thin">
@@ -320,38 +312,35 @@
               industry.
             </p>
           </div>
+          <div class="section__block_description"></div>
+        </div>
 
-          <div class="section__block section__block--gray">
-            <div
-              class="section__block_description section__block_description_2"
+        <div class="section__block section__block--gray">
+          <div class="section__block_description section__block_description_2">
+            <h2 class="title-section">Stay in the loop</h2>
+            <p class="title-description title-description--thin">
+              Subscribe to receive the latest news and updates about TDA. We
+              promise not to spam you!
+            </p>
+          </div>
+          <div class="section__block_description section__block_description_1">
+            <form
+              action="formHandler.php"
+              name="Subscribe_form"
+              autocomplete="on"
+              method="POST"
+              class="form"
             >
-              <h2 class="title-section">Stay in the loop</h2>
-              <p class="title-description title-description--thin">
-                Subscribe to receive the latest news and updates about TDA. We
-                promise not to spam you!
-              </p>
-            </div>
-            <div
-              class="section__block_description section__block_description_1"
-            >
-              <form
-                action="formHandler.php"
-                name="Subscribe_form"
-                autocomplete="on"
-                method="POST"
-                class="form"
-              >
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Enter email Addres"
-                  class="form__input"
-                />
-                <button type="submit" class="btn btn__continue btn__pos">
-                  Continue
-                </button>
-              </form>
-            </div>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter email Addres"
+                class="form__input"
+              />
+              <button type="submit" class="btn btn__continue btn__posBIG">
+                Continue
+              </button>
+            </form>
           </div>
         </div>
       </section>
@@ -361,7 +350,7 @@
       <div class="footer__section__block">
         <div class="footer__section__block_description">
           <div class="footer__section__block_predecription">
-            <a href="./index.html" class="logo">LOGO</a>
+            <a href="../index.html" class="logo">LOGO</a>
           </div>
           <div class="footer__section__block_predecription">
             <p class="title-description title-description--footer">
@@ -376,7 +365,7 @@
 
         <div class="footer__section__block_description">
           <div class="footer__section__block_predecription">
-            <a href="./pages/about us.html" class="navbar__link">About us</a>
+            <a href="./about us.html" class="navbar__link">About us</a>
           </div>
           <div class="footer__section__block_predecription">
             <p class="title-description title-description--footer">Zeux</p>
@@ -390,9 +379,7 @@
 
         <div class="footer__section__block_description">
           <div class="footer__section__block_predecription">
-            <a href="./pages/contact us.html" class="navbar__link"
-              >Contact us</a
-            >
+            <a href="./contact us.html" class="navbar__link">Contact us</a>
           </div>
           <div class="footer__section__block_predecription">
             <p class="title-description title-description--footer">
@@ -479,7 +466,6 @@
         </div>
       </div>
     </footer>
-
     <!-- Modal -->
     <div
       class="modal fade"
@@ -515,10 +501,9 @@
     </div>
 
     <!-- scrollReveal script -->
-    <script src="./js/scrollReveal.js"></script>
-
+    <script src="../js/scrollReveal.js"></script>
     <!-- Hamburger script -->
-    <script src="./js/hamburger.js"></script>
+    <script src="../js/hamburger.js"></script>
     <!-- Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -536,9 +521,9 @@
       crossorigin="anonymous"
     ></script>
     <!-- Bootstrap Modal Script -->
-    <script src="./js/modal.js"></script>
+    <script src="../js/modal.js"></script>
     <!-- Swiper Slider script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script type="module" src="./js/swiper.js"></script>
+    <script type="module" src="../js/swiper.js"></script>
   </body>
 </html>
