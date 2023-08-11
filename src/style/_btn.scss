@@ -38,6 +38,17 @@
 
     background-color: $color-pseudo-line;
     border-radius: 0;
+
+    z-index: 1;
+  }
+
+  &__get_in_touch {
+    padding: $p-1 $p-2-5;
+
+    background-color: $color-pseudo-line;
+    border-radius: 10px;
+
+    z-index: 1;
   }
 
   &__see {
@@ -49,6 +60,8 @@
     background-color: $color-white-opacity;
 
     border-radius: 10px;
+
+    z-index: 1;
   }
 
   &-close {

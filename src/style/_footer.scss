@@ -1,35 +1,25 @@
 .footer {
+  padding: 4rem;
+
   background-color: $color-footer;
 
-  &__wrapper {
-    margin: $m-2 0;
-  }
-}
+  z-index: 1;
 
-.block {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: $p-6;
+  &__section__block {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
 
-  &__description {
-    width: calc(100% / 4);
-    min-width: 200px;
-
-    &:nth-child(2) {
+    &_description {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-    }
+      align-items: flex-start;
+      row-gap: 1rem;
 
-    &--footer {
-      display: flex;
-      flex-direction: column;
-      justify-content: end;
+      width: 20%;
+      margin: 0 2rem;
     }
   }
-}
-
-.title-description--foot {
-  margin: 0;
 }

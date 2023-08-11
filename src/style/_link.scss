@@ -6,8 +6,6 @@
   font-weight: $font-w-400;
   color: $color-white;
 
-  z-index: 10;
-
   &::selection {
     background: orange;
   }

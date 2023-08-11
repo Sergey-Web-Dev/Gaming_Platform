@@ -1,5 +1,7 @@
 .navbar {
   @include flex();
+
+  z-index: 10;
 }
 
 .navbar__wrapper {
@@ -13,7 +15,28 @@
 
       transform: rotate(90deg);
 
-      bottom: -16.5px;
+      bottom: -16.3px;
+      left: 21px;
+      height: 5px;
+      width: 4px;
+
+      border-radius: 2rem;
+    }
+  }
+}
+
+.navbar__wrapper-2 {
+  position: relative;
+
+  &:hover {
+    &::after {
+      content: "";
+      background-color: $color-pseudo-line;
+      position: absolute;
+
+      transform: rotate(90deg);
+
+      bottom: -12.5px;
       left: 21px;
       height: 5px;
       width: 4px;

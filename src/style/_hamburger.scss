@@ -1,0 +1,36 @@
+.hamburger {
+  display: none;
+  &-line {
+    @include transition();
+
+    width: 35px;
+    height: 4px;
+    margin: 0.5rem;
+    background-color: $color-pseudo-line;
+    border-radius: 10px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.active {
+  .hamburger-line:nth-child(2) {
+    @include transition();
+
+    opacity: 0;
+  }
+
+  .hamburger-line:nth-child(1) {
+    @include transition();
+
+    transform: translateY(12px) rotate(45deg);
+  }
+
+  .hamburger-line:nth-child(3) {
+    @include transition();
+
+    transform: translateY(-12px) rotate(-45deg);
+  }
+}
