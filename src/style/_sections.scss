@@ -8,6 +8,8 @@
 
       &_1 {
         width: 40%;
+
+        z-index: 5;
       }
 
       &_2 {
@@ -18,6 +20,19 @@
 
       &--p2 {
         padding: $p-2 0;
+
+        &:not(:last-child) {
+          border-right: 2px solid $color-white;
+        }
+      }
+
+      &--p0 {
+        &:not(:first-child) {
+          display: flex;
+          justify-content: center;
+        }
+
+        padding: 0;
 
         &:not(:last-child) {
           border-right: 2px solid $color-white;
@@ -68,12 +83,16 @@
       align-items: center;
     }
 
+    &--center {
+      position: relative;
+      justify-content: center;
+    }
+
     &--gray {
       @include flex-w-a();
       align-items: center;
 
       padding: $p-1 $p-4;
-      margin-top: $m-2;
 
       background-color: $section-block-form;
       border-radius: 15px;
@@ -94,6 +113,10 @@
 
     &_pages {
       column-gap: 1rem;
+    }
+
+    &_form2 {
+      column-gap: 2rem;
     }
   }
 
@@ -157,6 +180,11 @@
 
 .bg2 {
   padding-top: $p-6;
+  background-color: $color-bg-section;
+}
+
+.bg3 {
+  padding: $p-4;
   background-color: $color-bg-section;
 }
 

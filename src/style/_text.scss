@@ -112,6 +112,11 @@
         font-weight: $font-w-700;
         font-size: $font-31;
       }
+
+      &--form2 {
+        font-weight: $font-w-400;
+        font-size: $font-30;
+      }
     }
 
     &--w90 {
@@ -184,6 +189,25 @@
     &--thin2 {
       margin: 0;
       font-weight: $font-w-300;
+    }
+
+    &--thin3 {
+      margin: 0;
+
+      line-height: 30px;
+      font-size: $font-20;
+      font-weight: $font-w-300;
+    }
+
+    &--footer {
+      margin: 0;
+      font-weight: $font-w-400;
+    }
+
+    &--form2 {
+      margin: 0;
+      font-weight: $font-w-500;
+      font-size: $font-13;
     }
 
     &--w80 {
