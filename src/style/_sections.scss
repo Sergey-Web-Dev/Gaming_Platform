@@ -40,6 +40,8 @@
       }
 
       &_rate {
+        @include transition();
+
         width: 30%;
         padding: $p-2;
         border: 2px solid $color-white;
@@ -211,4 +213,12 @@
   &--rotate {
     transform: rotateX(185deg);
   }
+}
+
+.active-card {
+  @include transition();
+
+  border: 2px solid $color-pseudo-line;
+
+  background-color: $color-bg-card;
 }

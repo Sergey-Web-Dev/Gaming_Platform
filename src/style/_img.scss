@@ -250,21 +250,40 @@
   width: 100%;
 }
 
-// media
-@media screen and (max-width: 450px) {
-  .circle--big {
-    width: 7%;
+.img-profile {
+  position: relative;
+  animation: upDown 10s linear infinite normal forwards;
+
+  &:hover {
+    cursor: pointer;
+    animation-play-state: paused;
+  }
+}
+
+@keyframes upDown {
+  0% {
+    bottom: 0%;
   }
 
-  .circle--middle {
-    width: 5%;
+  25% {
+    bottom: 8%;
+    border-radius: 25%;
+    box-shadow: 5px 8px 15px $color-white;
   }
 
-  .circle--little {
-    width: 3%;
+  50% {
+    bottom: 0%;
+    border-radius: 0%;
   }
 
-  .circle--micro {
-    width: 2.5%;
+  75% {
+    bottom: -8%;
+    border-radius: 25%;
+    box-shadow: -5px -8px 15px $color-white;
+  }
+
+  100% {
+    bottom: 0%;
+    border-radius: 0%;
   }
 }
