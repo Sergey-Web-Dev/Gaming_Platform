@@ -1,7 +1,7 @@
 const hamburger = document.querySelector(".hamburger");
 const navbar = document.querySelector(".navbar__lists");
 const oldLink = document.getElementById("change");
-const newMobileLink = `<a href="./contact us.html" class="navbar__link">Contact us</a>`;
+const newMobileLink = `<a href="./pages/contact us.html" class="navbar__link">Contact us</a>`;
 
 if (window.innerWidth <= 575) {
   console.log(window.innerWidth);
