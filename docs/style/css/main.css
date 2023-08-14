@@ -1566,6 +1566,9 @@ body {
   .circle--micro {
     width: 2.5%;
   }
+  .antimag {
+    width: 100%;
+  }
   .news-img {
     width: 100%;
     scale: 1.1;
