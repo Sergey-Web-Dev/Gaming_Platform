@@ -307,7 +307,7 @@
               class="img-profile"
             />
           </div>
-          <div class="section__block_description">
+          <div class="section__block_description final">
             <h2
               class="title-section title-section--fz28 title-section--fz28-fw500"
             >
@@ -395,7 +395,8 @@
           </p>
           <div class="section__block section__block_rate">
             <div
-              class="section__block_description section__block_description_rate"
+              class="section__block_description section__block_description_rate active-card"
+              id="card-1"
             >
               <div class="section__block">
                 <ul class="lists lists-portfolio">
@@ -431,6 +432,7 @@
             </div>
             <div
               class="section__block_description section__block_description_rate"
+              id="card-2"
             >
               <div class="section__block">
                 <ul class="lists lists-portfolio">
@@ -464,6 +466,7 @@
             </div>
             <div
               class="section__block_description section__block_description_rate"
+              id="card-3"
             >
               <div class="section__block">
                 <ul class="lists lists-portfolio">
@@ -500,18 +503,20 @@
 
           <div class="section__block section__block--flex pages">
             <div class="section__block section__block_pages">
-              <div class="long"></div>
+              <div class="long" id="slider"></div>
               <div class="dot"></div>
-              <div class="dot"></div>
+              <div class="dot" id="dot"></div>
             </div>
             <div class="section__block section__block_pages">
               <div
                 class="section__block_description section__block_description_page"
+                id="btn-left"
               >
                 <span class="page__row page__row--rotate">&#9754;</span>
               </div>
               <div
                 class="section__block_description section__block_description_page"
+                id="btn-right"
               >
                 <span class="page__row">&#9755;</span>
               </div>
@@ -717,6 +722,8 @@
       </div>
     </div>
 
+    <!-- card-switch -->
+    <script src="../js/card-switch.js"></script>
     <!-- scrollReveal script -->
     <script src="../js/scrollReveal.js"></script>
     <!-- Hamburger script -->
