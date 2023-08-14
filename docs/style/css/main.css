@@ -1024,6 +1024,18 @@ body {
   border-radius: 2rem;
 }
 
+.tel {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.tel:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -1538,6 +1550,9 @@ body {
   }
   .video {
     width: 100%;
+  }
+  .tel {
+    font-size: 16px;
   }
   .circle--big {
     width: 7%;

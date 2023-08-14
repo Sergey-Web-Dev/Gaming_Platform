@@ -31,3 +31,19 @@
     }
   }
 }
+
+.tel {
+  font-size: $font-20;
+  font-weight: $font-w-300;
+  line-height: 30px;
+
+  color: $color-white;
+
+  text-decoration: none;
+
+  &:hover {
+    color: $color-white;
+
+    text-decoration: none;
+  }
+}
